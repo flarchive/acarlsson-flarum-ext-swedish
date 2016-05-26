@@ -1,0 +1,25 @@
+{
+    "name": "acarlsson/flarum-ext-swedish",
+    "type": "flarum-extension",
+    "description": "Swedish language pack.",
+    "keywords": ["locale", "language", "swedish", "svenska", "sv", "se"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Swedish",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "se",
+            "title": "Swedish"
+        }
+    }
+}
